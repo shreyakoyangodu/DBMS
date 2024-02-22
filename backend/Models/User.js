@@ -1,7 +1,7 @@
 // User.js
 
 const mysql = require('mysql');
-const db = require('../config/db'); // Assuming you have a module for database connection
+const db = require('../config/db'); // Assuming you have a module for database connection 
 
 const User = {
   create: (username, password, role, callback) => {
